@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(133, 216, 195);
+    position: relative;
+}
+
+
+.my-img{
+    height:400px;
+    transition: .5s ease-in-out;
+    position: relative;
+
+    top:50px;
+    left:200px
+}
+
+.blur{
+    filter: blur(10px);
+}
+.blur:hover{
+    filter: blur(0) ;
+    transform: scale(1.2);
+    border-radius: 50%;
+}
+
+input{
+    height: 50px;
+    width:500px;
+    font-size: 40px;
+    transition: .5s ease-in-out;
+}
+
+input:hover{
+    background-color: lightgreen;
+}
+
+p:active{
+    background-color: #111;
+    color: #ccc;
+}
+
+input:focus{
+    background-color: blue;
+}
